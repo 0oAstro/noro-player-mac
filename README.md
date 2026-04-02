@@ -26,9 +26,16 @@ swift build
 
 Or open `Package.swift` in Xcode and run the `NoroPlayer` scheme.
 
-## Download
+## Install
 
-Head to the [Releases](https://github.com/0oAstro/noro-player-mac/releases) page and grab the latest build.
+**Homebrew (recommended):**
+
+```bash
+brew tap 0oAstro/tap
+brew install --cask noro-player
+```
+
+**Manual:** Head to the [Releases](https://github.com/0oAstro/noro-player-mac/releases) page and grab the latest build.
 
 ---
 
