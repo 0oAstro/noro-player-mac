@@ -26,6 +26,8 @@
     <string>NSApplication</string>
     <key>LSUIElement</key>
     <true/>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
     <key>NSAppleEventsUsageDescription</key>
     <string>Noro Player uses Apple Events to control Music playback and fetch artwork.</string>
 </dict>

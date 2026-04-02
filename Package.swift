@@ -18,6 +18,11 @@ let package = Package(
                 .process("Resources")
             ]
         ),
+        .executableTarget(
+            name: "IconRenderer",
+            dependencies: ["NoroPlayerLib"],
+            path: "Sources/IconRenderer"
+        ),
         .testTarget(
             name: "NoroPlayerTests",
             dependencies: ["NoroPlayerLib"],
